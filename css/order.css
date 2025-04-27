@@ -1,0 +1,82 @@
+/* Navbar */
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+
+.orders-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orangered;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.order-details {
+    flex: 2;
+}
+
+.order-otp {
+    color: red; /* You can change the color based on your design preference */
+    font-weight: bold;
+}
+
+.order-amount {
+    font-weight: bold;
+}
+
+.order-status {
+    color: green;
+    font-weight: bold;
+}
+
+.order-date {
+    color: #888;
+}
+
+.order-button {
+    text-align: center;
+    background: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+.order-button:hover {
+    background: darkred;
+}

@@ -1,0 +1,133 @@
+/* Navbar */
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: orangered;
+}
+
+/* Body */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Restaurant Header */
+.category-btn {
+  margin: 5px;
+  background-color: #f5dd97; /* Light background color for buttons */
+  color: #C40C0C; /* Text color for the button */
+  border: 2px solid #C40C0C;
+  padding: 8px 15px;
+  font-size: 14px; /* Reduced font size for better fitting */
+  border-radius: 5px;
+  max-width: 150px; /* Limit the width to ensure buttons are not too large */
+  white-space: nowrap; /* Prevent text from wrapping within buttons */
+}
+
+.category-btn:hover {
+  background-color: #C40C0C; /* Hover background */
+  color: #fff; /* Text color change on hover */
+}
+.text-center.mb-4 {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+/* Card Styling for Items */
+.item-card {
+  margin-bottom: 20px;
+}
+
+/* Item card container */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-wrapper {
+  /* height: 200px;  */
+  overflow: hidden; /* Ensures the image is contained */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
+}
+
+/* Card body styling */
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3B1E54;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #6c757d; /* Muted text color */
+}
+
+.card-body p {
+  font-size: 16px;
+}
+
+.card-body p strong {
+  font-weight: bold;
+  color: #C40C0C; /* Price color */
+}
+
+/* Add to Cart Button */
+/* .btn-outline-dark {
+  color: #C40C0C;
+  border-color: #C40C0C;
+  margin-top: 10px;
+  width: 100%; 
+} */
+
+.btn-outline-dark:hover {
+  background-color: #C40C0C;
+  color: #fff;
+  border-color: #C40C0C;
+}
+
+/* Footer styling (if needed) */
+footer {
+  background-color: #3B1E54;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-body {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-wrapper {
+      height: 150px; /* Adjust image size for small screens */
+  }
+
+  .card-body {
+      padding: 8px;
+  }
+
+  .category-btn {
+      font-size: 14px;
+      padding: 6px 12px;
+  }
+}

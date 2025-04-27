@@ -1,0 +1,74 @@
+/* Navbar */
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+/* Custom Container Styling */
+.custom-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(255, 69, 0, 0.3);
+}
+
+/* Edit Item Header */
+.edit-item-header {
+    font-size: 2rem;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Form Label */
+.form-label {
+    font-weight: 500;
+}
+
+/* Input, Textarea, and Select Styling */
+input.form-control,
+textarea.form-control,
+select.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Image Preview Styling */
+small img {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+
+/* Form Row Layout */
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+} */
+
+/* Column Styling for Each Input Field */
+.col-md-6 {
+    flex: 1;
+    min-width: 270px;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .col-md-6 {
+        flex: 100%;
+    }
+}

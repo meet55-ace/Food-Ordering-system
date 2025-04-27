@@ -1,0 +1,133 @@
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+
+.bill-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3B1E54;
+}
+
+p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+strong {
+    color: #3B1E54;
+}
+
+.bill-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bill-container ul li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bill-container ul li strong {
+    font-size: 16px;
+}
+
+.bill-container ul li span {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Total Amount Section */
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #3B1E54;
+}
+
+.total-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+/* Button Styling */
+/* button,
+a.btn {
+    display: inline-block;
+    background-color: #3B1E54;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+} */
+.otp-display h1 {
+    text-align: center;
+    color: orangered;
+    font-size: 36px;
+}
+
+.otp-display span {
+    font-weight: bold;
+}
+button:hover,
+a.btn:hover {
+    background-color: #4f2b6f;
+    transition: background-color 0.3s ease;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .bill-container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p,
+    ul li {
+        font-size: 14px;
+    }
+
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li span {
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,38 @@
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+/* Styling for the wallet page */
+.wallet-card {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.wallet-card .card-text {
+    font-size: 20px;
+    color: #555;
+}
+
+.wallet-card .card-text strong {
+    color: #000;
+}
+
+

@@ -1,0 +1,180 @@
+
+
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+/* Cart Header */
+
+.cart-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.cart-item:hover {
+    transform: translateY(-5px);
+}
+
+.cart-item-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-item-details {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.cart-item-details h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cart-item-details p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.cart-item-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-item-actions button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-remove {
+    padding: 5px 10px;  /* Smaller padding for a more compact button */
+    font-size: 12px;     /* Smaller text for the button */
+    border-radius: 5px;  /* Rounded corners */
+    text-align: center;  /* Center text inside the button */
+    display: inline-block; /* Ensure it behaves like an inline button */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+.btn-remove:hover {
+    background-color: #dc3545;  /* Slightly darker red on hover */
+}
+.quantity-input {
+    text-align: center;  /* Align the text inside the input to the center */
+    width: 50px;         /* Set a fixed width for better control */
+    height: 30px;        /* Consistent height */
+    padding: 5px;        /* Padding inside input field */
+    font-size: 14px;     /* Slightly larger text for better readability */
+}
+
+.btn-minus, .btn-plus {
+    width: 30px;        /* Ensure the buttons are small and balanced */
+    height: 30px;       /* Same height as the quantity input */
+    font-size: 18px;    /* Larger text on buttons */
+    text-align: center; /* Center text inside buttons */
+    padding: 0;         /* No padding for a cleaner look */
+}
+
+.cart-item-actions .btn-minus {
+    background-color: #dc3545; /* Red for Minus */
+    color: white;
+}
+
+.cart-item-actions .btn-minus:hover {
+    background-color: #c82333;
+}
+
+.cart-item-actions .btn-plus {
+    background-color: #28a745; /* Green for Plus */
+    color: white;
+}
+
+.cart-item-actions .btn-plus:hover {
+    background-color: #218838;
+}
+
+.cart-item-actions .btn-danger {
+    background-color: #dc3545; /* Red for Remove */
+    color: white;
+}
+
+.cart-item-actions .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cart-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.clear-cart-btn, #backToMenu {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.clear-cart-btn:hover, #backToMenu:hover {
+    background-color: #0056b3;
+}
+
+#orderNowBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#orderNowBtn:hover {
+    background-color: #218838;
+}
+

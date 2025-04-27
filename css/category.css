@@ -1,0 +1,184 @@
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Modern Card Design */
+.modern-card {
+    border: 1px solid #ddd; /* Light border for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border-radius: 8px; /* Rounded corners for the card */
+    max-width: 300px; /* Limit the card width */
+    margin: auto; /* Center the card within its column */
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.modern-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.card-img-top {
+    width: 100%; /* Stretch to the card's width */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Fill the card area without distortion */
+    border-radius: 8px; /* Match the card's rounded corners */
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 180px; /* Adjust for smaller screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 220px; /* Adjust for larger screens */
+    }
+}
+
+.card-body {
+    padding: 15px; /* Smaller padding for a compact design */
+    background-color: #fff;
+    text-align: center; /* Center the content */
+}
+
+.card-title {
+    font-size: 1rem; /* Reduce font size for compactness */
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card-sub-title {
+    font-size: 0.9rem; /* Slightly smaller subtitle */
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.85rem; /* Compact font size */
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body a.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    padding: 8px 12px; /* Smaller button padding */
+    font-size: 0.85rem; /* Compact font size */
+    font-weight: 600;
+}
+
+.card-body a.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .modern-card {
+        max-width: 100%; 
+    }
+
+    .card-img-top {
+        height: 150px; /* Adjust for smaller screens */
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .modern-card {
+        height: auto;
+    }
+}
+
+/* Flexbox for Cards */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+/* Card Columns */
+.col-xl-3, .col-sm-6, .col-md-4, .col-lg-3 {
+    margin-bottom: 30px; /* Space between cards */
+}
+
+/* Search Bar Styling */
+.search-bar {
+    margin: 20px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar input {
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.search-bar button {
+    padding: 15px 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #e86c0d;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

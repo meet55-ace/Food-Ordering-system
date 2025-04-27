@@ -1,0 +1,109 @@
+/* Carousel container */
+
+/* Adding hover effect for images */
+.img-circle:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+.navbar {
+    box-shadow: 0 15px 40px -20px rgba(6, 27, 103, 0.15);
+  }
+  /* .navbar img {
+    width: 101px;
+    height: 100px;
+  } */
+  
+  .nav-link{
+      color:black;
+  }
+  .nav-link:hover{
+      color:orangered;
+  }
+  .item{
+    padding: 20px;
+  }
+  .item img{
+    border-radius: 50%;
+    height:165px;
+    width: 200px;
+  }
+  
+  .owl-carousel .owl-nav .owl-prev span,
+  .owl-carousel .owl-nav .owl-next span {
+    color: #000;
+  }
+  .toggle-switch {
+    width: 40px;
+    height: 30px;
+  }
+
+
+/* Modern Card Design */
+.modern-card {
+    border: 1px solid #ddd;  /* Light border for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.modern-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0; /* Round the top corners of the image */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.card-sub-title {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body a.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+.card-body a.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* .card h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #007bff;
+} */
+
+/* Adding some responsive design adjustments */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}
